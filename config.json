@@ -1,0 +1,49 @@
+{
+  "janela": {
+    "largura": 1280,
+    "altura": 720,
+    "vsync": true,
+    "fullscreen": true,
+    "fov": 70
+  },
+  "jogador": {
+    "velocidade": 12.0,
+    "multiplicador_shift": 3.0,
+    "sensibilidade": 0.1,
+    "alcance_raycast": 8
+  },
+  "mundo": {
+    "seed": 12345,
+    "nome": "mundo1",
+    "raio_chunks": 5,
+    "nivel_do_mar": 96,
+    "margem_superficie_cavernas": 6
+  },
+  "ruido": {
+    "continentalidade": { "frequencia": 0.0008, "oitavas": 4 },
+    "erosao":           { "frequencia": 0.0015, "oitavas": 4 },
+    "temperatura":      { "frequencia": 0.0010, "oitavas": 3 },
+    "relevo":           { "frequencia": 0.0100, "oitavas": 5 },
+    "cavernas_grandes": { "frequencia": 0.0200, "oitavas": 2, "limiar": 0.6 },
+    "tuneis":           { "frequencia": 0.0150, "oitavas": 1, "epsilon": 0.05 }
+  },
+  "curvas": {
+    "continentalidade": [[-1.0, 60], [-0.15, 94], [0.0, 100], [1.0, 125]],
+    "erosao":           [[-1.0, 140], [0.0, 40], [1.0, 4]]
+  },
+  "ciclo_dia": {
+    "duracao_segundos": 240,
+    "hora_inicial": 0.35
+  },
+  "fog": {
+    "inicio_relativo": 0.6
+  },
+  "sombreamento_faces": {
+    "topo": 1.0,
+    "sul": 0.9,
+    "leste": 0.8,
+    "norte": 0.7,
+    "oeste": 0.6,
+    "base": 0.5
+  }
+}

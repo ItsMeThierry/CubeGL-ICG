@@ -1,0 +1,9 @@
+Antes de rodar, necessita criar uma pasta chamada thrid_party contendo as seguintes bibliotecas:
+
+- FastNoiseLite
+- glad
+- stb
+
+Para rodar (LINUX):
+
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j && ./build/projeto_icg
